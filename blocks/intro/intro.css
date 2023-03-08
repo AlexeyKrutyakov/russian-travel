@@ -1,22 +1,22 @@
 .intro {
-  padding-top: 92px;
-  max-width: 690px;
   display: flex;
   flex-direction: column;
+  max-width: 690px;
+  padding-top: 92px;
 }
 
 @media screen and (max-width: 768px) {
   .intro {
-    padding-top: 88px;
     padding-left: 24px;
     padding-right: 24px;
+    padding-top: 88px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .intro {
-    padding-top: 64px;
     padding-left: 16px;
     padding-right: 16px;
+    padding-top: 64px;
   }
 }

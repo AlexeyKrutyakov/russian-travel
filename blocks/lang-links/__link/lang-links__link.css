@@ -1,10 +1,17 @@
 .lang-links__link {
   text-decoration: none;
-  color: #fff;
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
-  line-height: 28px;
+  line-height: 1.17;
   text-align: right;
+  color: #fff;
+}
+
+@media screen and (max-width: 320px) {
+  .lang-links__link {
+    font-size: 18px;
+    line-height: 1.11;
+  }
 }

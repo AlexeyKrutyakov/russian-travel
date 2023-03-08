@@ -5,7 +5,27 @@
   align-items: end;
   justify-content: space-between;
   width: 100vw;
-  box-sizing: border-box;
-  max-width: 1148px;
-  min-height: 52px;
+  box-sizing: content-box;
+  max-width: 1184px;
+  /* min-height: 52px; */
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 788px) {
+  .header {
+    padding: 28px 24px 0;
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header {
+    padding: 16px 16px 0;
+    max-width: 288px;
+  }
 }

@@ -1,0 +1,18 @@
+.main-illustration {
+  padding-top: 64px;
+  display: block;
+  width: 100%;
+  /* object-fit: cover; */
+}
+
+@media screen and (max-width: 1024px) {
+  .main-illustration {
+    padding-top: 56px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .main-illustration {
+    padding-top: 40px;
+  }
+}

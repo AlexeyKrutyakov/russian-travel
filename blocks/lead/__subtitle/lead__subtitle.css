@@ -11,17 +11,16 @@
   text-align: center;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .lead__subtitle {
     font-size: calc(16px + (30 - 16) * (100vw - 320px) / (768 - 320));
     line-height: 1.25;
+    padding: 16px 16px 0;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 319px) {
   .lead__subtitle {
     font-size: 16px;
-    max-width: 288px;
-    padding-top: 16px;
   }
 }

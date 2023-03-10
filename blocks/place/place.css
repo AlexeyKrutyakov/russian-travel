@@ -1,5 +1,4 @@
 .place {
-  background-color: rgb(187, 187, 88);
   column-gap: 40px;
   display: grid;
   grid-template-areas: "title website" "image paragraphs";

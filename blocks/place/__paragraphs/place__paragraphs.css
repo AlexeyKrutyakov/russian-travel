@@ -1,0 +1,10 @@
+.place__paragraphs {
+  background-color: black;
+  grid-area: paragraphs;
+}
+
+@media (max-width: 767px) {
+  .place__paragraphs {
+    padding: 32px 16px 0;
+  }
+}

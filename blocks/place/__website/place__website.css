@@ -1,0 +1,15 @@
+.place__website {
+  background-color: rgb(126, 72, 72);
+  grid-area: website;
+  margin: 0;
+  padding: 0;
+  align-self: end;
+  list-style-type: none;
+}
+
+@media (max-width: 767px) {
+  .place__website {
+    align-self: start;
+    padding: 32px 16px 0;
+  }
+}

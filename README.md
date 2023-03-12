@@ -2,11 +2,11 @@
 
 (Проект курса "Веб-разработчик плюс" от Яндекс Практикума)
 
-** _Разработчик:_ **
+## _Разработчик:_
 
 [Алексей Крутяков](https://github.com/AlexeyKrutyakov)
 
-** _Используемые технологии:_ **
+## _Используемые технологии:_
 
 ![Figma](https://img.shields.io/badge/-Figma-011?&logo=figma)
 ![HTML5](https://img.shields.io/badge/-HTML5-011?&logo=html5)

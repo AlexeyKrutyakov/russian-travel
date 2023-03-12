@@ -4,13 +4,13 @@
   width: 100%;
 }
 
-@media screen and (max-width: 1279px) {
+@media (max-width: 1279px) {
   .main-illustration {
     padding-top: 56px;
   }
 }
 
-@media screen and (max-width: 767px) {
+@media (max-width: 767px) {
   .main-illustration {
     padding-top: 40px;
   }

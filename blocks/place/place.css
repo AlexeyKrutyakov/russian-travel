@@ -3,7 +3,7 @@
   display: grid;
   grid-template-areas: "title website" "image paragraphs";
   grid-template-columns: min-content 1fr;
-  grid-template-rows: 1fr, max-content;
+  grid-template-rows: 1fr max-content;
   row-gap: 48px;
 }
 

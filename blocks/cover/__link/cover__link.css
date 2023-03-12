@@ -1,15 +1,15 @@
 .cover__link {
   display: grid;
-  position: relative;
-  grid-template-columns: fit-content;
+  grid-template-columns: 1fr;
   grid-template-rows: minmax(397px, auto) 1fr;
   justify-items: center;
+  position: relative;
   text-decoration-line: none;
 }
 
 .cover__link:hover .cover__overlay {
-  opacity: 0.8;
   cursor: pointer;
+  opacity: 0.8;
 }
 
 @media (max-width: 1279px) {

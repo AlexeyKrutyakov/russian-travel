@@ -1,0 +1,10 @@
+.cover__background {
+  width: 100%;
+  height: auto;
+  max-width: 1184px;
+  min-width: 320px;
+  z-index: -1;
+
+  grid-column: 1;
+  grid-row: 1 / 3;
+}

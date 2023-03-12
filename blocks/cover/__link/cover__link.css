@@ -1,0 +1,31 @@
+.cover__link {
+  display: grid;
+  position: relative;
+  grid-template-columns: fit-content;
+  grid-template-rows: minmax(397px, auto) 1fr;
+  justify-items: center;
+  text-decoration-line: none;
+}
+
+.cover__link:hover .cover__overlay {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+@media (max-width: 1279px) {
+  .cover__link {
+    grid-template-rows: minmax(347px, auto);
+  }
+}
+
+@media (max-width: 1023px) {
+  .cover__link {
+    grid-template-rows: minmax(267px, auto);
+  }
+}
+
+@media (max-width: 767px) {
+  .cover__link {
+    grid-template-rows: minmax(103px, auto);
+  }
+}

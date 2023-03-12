@@ -23,6 +23,7 @@
 
 @media (max-width: 767px) {
   .places {
+    gap: 50px;
     padding: 64px 0 0;
   }
 }

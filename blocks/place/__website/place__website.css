@@ -1,9 +1,9 @@
 .place__website {
   align-self: end;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
   grid-area: website;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
 }
 
 @media (max-width: 767px) {

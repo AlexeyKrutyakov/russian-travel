@@ -12,10 +12,14 @@
 <body class="page">
   <header class="header">
     <img class="header__logo" alt="Логотип текущего проекта в виде силуэта России" src="./images/logo.svg">
-    <div class="lang-links">
-      <a href="#" class="lang-links__link lang-links__link_active" lang="en">Ru</a>
-      <a href="#" class="lang-links__link" lang="en">En</a>
-    </div>
+    <ul class="header__lang-switcher lang-links">
+      <li>
+        <a href="#" class="lang-links__link lang-links__link_active" lang="en">Ru</a>
+      </li>
+      <li>
+        <a href="#" class="lang-links__link" lang="en">En</a>
+      </li>
+    </ul>
   </header>
   <main class="container">
     <section class="lead">
@@ -62,10 +66,6 @@
       <img class="photo-grid__image" src="./images/ergaki.jpg" alt="Фрагменты горных вершин в густом тумане">
     </section>
     <section class="places" aria-label="Интересные места России">
-      <ul>
-        <li>one</li>
-        <li>two</li>
-      </ul>
       <article class="place">
         <h2 class="place__title">Куршская коса</h2>
         <div class="place__website">
